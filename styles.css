@@ -1,0 +1,22 @@
+/* Custom styling for the personal expense tracker */
+body {
+    background-color: #f8f9fa; /* Matches Bootstrap bg-light */
+}
+
+/* Make table text slightly smaller to match the mockup */
+.table {
+    font-size: 0.9rem;
+}
+
+/* Ensure the delete button fits nicely in the table */
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+/* Styling for empty state in the table */
+.empty-table-row {
+    text-align: center;
+    color: #6c757d;
+    padding: 20px;
+}
